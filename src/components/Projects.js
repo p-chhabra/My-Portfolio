@@ -3,7 +3,7 @@ import WorkImg from '../assets/workImg.jpeg'
 
 const Projects = () => {
   return (
-    <div name="projects" className='w-full bg-[#0a192f] w-full h-screen'>
+    <div name="projects" className='w-full bg-[#0a192f] h-full pt-60'>
         <div className='max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full text-gray-300'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold border-b-8 border-pink-600'>Projects</p>
