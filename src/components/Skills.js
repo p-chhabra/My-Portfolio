@@ -13,6 +13,8 @@ import Mongo from '../assets/mongo.png';
 import CPP from '../assets/c++.png';
 import Bootstrap from '../assets/bootstrap.png'
 import Linux from '../assets/linux.png';
+import Sass from '../assets/sass.png'
+import Git from '../assets/git.png'
 
 
 const Skills = () => {
@@ -65,6 +67,14 @@ const Skills = () => {
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Linux} alt="HTML img" />
                 <p className='my-4'>Linux</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Sass} alt="HTML img" />
+                <p className='my-4'>Sass</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Git} alt="HTML img" />
+                <p className='my-4'>Git</p>
             </div>
         </div>
         </div>
