@@ -94,3 +94,19 @@
     hsla(242,74%,61%,0.8)
   );
 }
+
+.slideIn{
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes slidein {
+  from{
+    margin-left: 150%;
+  }
+
+  to{
+    margin-left: 0%;
+  }
+}

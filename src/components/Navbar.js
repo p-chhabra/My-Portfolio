@@ -4,6 +4,7 @@ import logo from '../assets/software-development.png';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
 
@@ -20,11 +21,31 @@ const Navbar = () => {
 
         {/* Menu */}        
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li className='font-bold hover:text-pink-600 duration-300'>
+                    <Link to="home" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='font-bold hover:text-pink-600 duration-300'>
+                    <Link to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='font-bold hover:text-pink-600 duration-300'>
+                    <Link to="skills" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='font-bold hover:text-pink-600 duration-300'>
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='font-bold hover:text-pink-600 duration-300'>
+                    <Link to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
         {/* Hamburger */}
