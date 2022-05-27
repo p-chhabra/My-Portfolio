@@ -65,17 +65,17 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a href="/" className='flex justify-between items-center w-full text-gray-300'>LinkedIn <FaLinkedin size={30}/></a>
+                <li className='font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <a href="https://www.linkedin.com/in/prathmesh-chhabra-51760719b/" target="_blank" className='flex justify-between items-center w-full text-gray-300'>LinkedIn <FaLinkedin size={30}/></a>
                 </li>
-                <li className='w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a href="/" className='flex justify-between items-center w-full text-gray-300'>GitHub <FaGithub size={30}/></a>
+                <li className='font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <a href="https://github.com/p-chhabra" target="_blank" className='flex justify-between items-center w-full text-gray-300'>GitHub <FaGithub size={30}/></a>
                 </li>
-                <li className='w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#17ce4e]'>
-                    <a href="/" className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30}/></a>
+                <li className='font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#17ce4e]'>
+                    <a href="malito:p.chhabra2002@gmail.com" className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30}/></a>
                 </li>
-                <li className='w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#666666]'>
-                    <a href="/" className='flex justify-between items-center w-full text-gray-300'>Resume <BsFillPersonLinesFill size={30}/></a>
+                <li className='font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#666666]'>
+                    <a href="https://drive.google.com/drive/folders/131VsbO-_KPlgR2e-HBX9-BlGKFicMEYl?usp=sharing" target="_blank" className='flex justify-between items-center w-full text-gray-300'>Resume <BsFillPersonLinesFill size={30}/></a>
                 </li>
             </ul>
         </div>

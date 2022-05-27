@@ -13,84 +13,106 @@ const Projects = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                 {/* Grid Item */}
-                <div className='project-1 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto'>
+                <div className='project-1 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4'>
 
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-80'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJs Application
+                    <div className='opacity-0 group-hover:opacity-80 text-center'>
+                        <span className='text-2xl font-bold text-white'>
+                            Natours - Sass Design Project
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://natours-1518.netlify.app/" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/p-chhabra/Natours" >
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
 
 
-                <div className='project-2 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto'>
+                <div className='project-2 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4'>
 
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJs Application
+                            WildPreserve - Custom CSS Design Project
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://wildpreserve.netlify.app/" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/p-chhabra/Wild-Preserve-website" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
 
 
-                <div className='project-3 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto'>
+                <div className='project-3 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4'>
 
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJs Application
+                            Bankist - Vanilla JS functional project
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://bankist-web-application.netlify.app/" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/p-chhabra/Bankist-Account-APP" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
 
 
-                <div className='project-4 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto'>
+                <div className='project-4 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4'>
 
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJs Application
+                            Mapty - Workout Tracking Project using map API
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://map-workout-app.netlify.app/" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/p-chhabra/Map-Workout-Application" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
+
+
+                <div className='project-5 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4'>
+
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Pig Game - A multiplayer 1v1 Dice Game
+                        </span>
+
+                        <div className='pt-8'>
+                            <a href="https://dice-game-1v1.netlify.app/" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
+                            </a>
+                            <a href="https://github.com/p-chhabra/Pig-Game" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>

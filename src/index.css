@@ -16,11 +16,11 @@
 }
 
 .project-1{
-  background-image: url('./assets/workImg.jpeg');
+  background-image: url('./assets/Natours.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   height: 250px;
+  transition-duration: 2s;
 }
 
 .project-1:hover{
@@ -32,7 +32,7 @@
 }
 
 .project-2{
-  background-image: url('./assets/workImg.jpeg');
+  background-image: url('./assets/WildPreserve.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -48,10 +48,9 @@
 }
 
 .project-3{
-  background-image: url('./assets/workImg.jpeg');
+  background-image: url('./assets/Bankist.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   height: 250px;
 }
 
@@ -64,10 +63,9 @@
 }
 
 .project-4{
-  background-image: url('./assets/workImg.jpeg');
+  background-image: url('./assets/Mapty.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   height: 250px;
 }
 
@@ -80,7 +78,7 @@
 }
 
 .project-5{
-  background-image: url('./assets/workImg.jpeg');
+  background-image: url('./assets/Pig\ Game.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,6 +91,7 @@
     rgba(112, 157, 255, 0.8),
     hsla(242,74%,61%,0.8)
   );
+  opacity: 80%;
 }
 
 .slideIn{
