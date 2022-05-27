@@ -50,16 +50,36 @@ const Navbar = () => {
 
         {/* Hamburger */}
         <div onClick = {handleClick} className='md:hidden z-10'>
-            {!nav ? <FaBars/> : <FaTimes/>}
+            {!nav ? <FaBars className='hover:cursor-pointer'/> : <FaTimes/>}
         </div>
 
         {/* Mobile Menu */}
         <ul className={ !nav ? "hidden" : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f]"}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Projects</li>
-            <li className='py-6 text-4xl'>Contact</li>
+            <li className='py-6 text-4xl hover:text-pink-600 duration-300'>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                        Home
+                    </Link>
+            </li>
+            <li className='py-6 text-4xl hover:text-pink-600 duration-300'>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                        About
+                    </Link>
+            </li>
+            <li className='py-6 text-4xl hover:text-pink-600 duration-300'>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+            </li>
+            <li className='py-6 text-4xl hover:text-pink-600 duration-300'>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+            </li>
+            <li className='py-6 text-4xl hover:text-pink-600 duration-300'>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+            </li>
         </ul>
 
         {/* Social Icons */}
@@ -72,7 +92,7 @@ const Navbar = () => {
                     <a href="https://github.com/p-chhabra" target="_blank" className='flex justify-between items-center w-full text-gray-300'>GitHub <FaGithub size={30}/></a>
                 </li>
                 <li className='font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#17ce4e]'>
-                    <a href="malito:p.chhabra2002@gmail.com" className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30}/></a>
+                    <a href="mailto:p.chhabra2002@gmail.com" className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30}/></a>
                 </li>
                 <li className='font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#666666]'>
                     <a href="https://drive.google.com/drive/folders/131VsbO-_KPlgR2e-HBX9-BlGKFicMEYl?usp=sharing" target="_blank" className='flex justify-between items-center w-full text-gray-300'>Resume <BsFillPersonLinesFill size={30}/></a>

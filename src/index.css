@@ -20,11 +20,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
-  transition-duration: 2s;
 }
 
 .project-1:hover{
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right, 
     rgba(112, 157, 255, 0.8),
     hsla(242,74%,61%,0.8)
@@ -91,7 +90,6 @@
     rgba(112, 157, 255, 0.8),
     hsla(242,74%,61%,0.8)
   );
-  opacity: 80%;
 }
 
 .slideIn{
