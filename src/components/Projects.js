@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                 {/* Grid Item */}
-                <div className='project-1 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-8 duration-500'>
+                <div className='project-1 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-80 text-center'>
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className='project-2 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-8  duration-500'>
+                <div className='project-2 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-4  duration-500'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
@@ -53,7 +53,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className='project-3 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-8 duration-500'>
+                <div className='project-3 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
@@ -73,7 +73,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className='project-4 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-8 duration-500'>
+                <div className='project-4 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
@@ -93,7 +93,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className='project-5 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-8 duration-500'>
+                <div className='project-5 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-pink-600 hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
