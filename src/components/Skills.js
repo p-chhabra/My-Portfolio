@@ -19,12 +19,12 @@ import Git from '../assets/git.png'
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#0a192f] w-full h-screen">
+    <div name="skills" className="bg-[#0a192f] w-full md:h-screen h-full">
         {/* Container */}
         <div className='w-full h-full flex flex-col justify-center max-w-[1000px] mx-auto p-4 text-gray-300'>
             <div>
                 <p className='text-4xl font-bold text-gray-300 py-4 border-b-8 border-pink-600'>Skills</p>
-                <p className='py-4'>// These are the technologies I have worked with</p>
+                <p className='py-4 font-bold'>// These are the technologies I have worked with</p>
             </div>
 
         <div className='grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 w-full text-gray-300'>

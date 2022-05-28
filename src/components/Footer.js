@@ -22,7 +22,7 @@ const Footer = () => {
             </a>
         </div>
         <div className='p-4'>
-            <p>Some Rights Reserved @Prathmesh Chhabra</p>
+            <p className='text-center'>Some Rights Reserved @Prathmesh Chhabra</p>
         </div>
     </div>
   )
