@@ -93,17 +93,19 @@
 }
 
 .slideIn{
-  animation-duration: 1.5s;
+  animation-duration: .6s;
   animation-name: slidein;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-timing-function: cubic-bezier(.67,.82,.67,.83)
 }
 
 @keyframes slidein {
   from{
-    margin-left: 150%;
+    transform:translateX(15rem);
+    opacity: 0;
   }
 
   to{
-    margin-left: 0%;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
