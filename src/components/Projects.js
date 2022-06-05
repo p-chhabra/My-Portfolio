@@ -111,6 +111,44 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                
+                <div className='project-6 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#0ea728] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500'>
+
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Great Quotes - A ReactJS app to maintain Quotes
+                        </span>
+
+                        <div className='pt-8'>
+                            <a href="https://great-quotes-application.netlify.app/quotes" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
+                            </a>
+                            <a href="https://github.com/p-chhabra/Great-Quotes-App" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='project-7 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#b4110c] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500'>
+
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            MealStore - A ReactJS App to manage food expenses and orders
+                        </span>
+
+                        <div className='pt-8'>
+                            <a href="https://mealstore.netlify.app/" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Demo</button>
+                            </a>
+                            <a href="https://github.com/p-chhabra/Food-Order-App" target="_blank">
+                                <button className='px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>

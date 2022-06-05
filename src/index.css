@@ -92,6 +92,38 @@
   );
 }
 
+.project-6{
+  background-image: url('./assets/Great\ Quotes.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+}
+
+.project-6:hover{
+  background-image: linear-gradient(
+    to right, 
+    rgba(112, 157, 255, 0.8),
+    hsla(242,74%,61%,0.8)
+  );
+}
+
+.project-7{
+  background-image: url('./assets/MealStore.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+}
+
+.project-7:hover{
+  background-image: linear-gradient(
+    to right, 
+    rgba(112, 157, 255, 0.8),
+    hsla(242,74%,61%,0.8)
+  );
+}
+
 .slideIn{
   animation-duration: .6s;
   animation-name: slidein;
