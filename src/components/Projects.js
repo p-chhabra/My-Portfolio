@@ -145,7 +145,7 @@ const Projects = () => {
 
               <div className="pt-8">
                 <a
-                  href="https://great-quotes-application.netlify.app/quotes"
+                  href="https://great-quotes-application.netlify.app/"
                   target="_blank"
                 >
                   <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
