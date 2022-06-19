@@ -67,8 +67,8 @@ const Navbar = () => {
       <ul
         className={
           !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f]"
+            ? "absolute top-[-1000px] left-0"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f] duration-300"
         }
       >
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
