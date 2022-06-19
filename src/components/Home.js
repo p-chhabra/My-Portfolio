@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           Prathmesh Chhabra
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm an Engineering Undergrad
+          I'm a <Typewriter words={["Web Developer"]}/>
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I'm currently pursuing B.Tech in Computer Science and Engineering from
