@@ -10,14 +10,14 @@ import Education from "./components/Education";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Education/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Home />
+      <About />
+      <Education />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
