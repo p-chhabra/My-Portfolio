@@ -1,5 +1,5 @@
 ## My Web Portfolio
 ### Made using Reactjs
 
-#### [Visit My Portfolio Here](https://prathmesh-chhabra-portfolio.netlify.app/)  
+#### [Visit My Portfolio Here](https://prathmesh-portfolio.netlify.app/)  
 
