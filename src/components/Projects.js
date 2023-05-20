@@ -1,196 +1,75 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
+import Fade from "react-reveal/Fade";
+import ProjectCard from "../Items/ProjectCard";
+import SemDetailIMG from "../assets/home.png";
+import MealStoreIMG from "../assets/MealStore.png";
+import TravelEliteIMG from "../assets/all_users.png";
+import RFIDModelIMG from "../assets/download.jpeg";
+import MaptyIMG from "../assets/Mapty.png";
+
+const projectData = [
+  {
+    id: 1,
+    title: "TravelELite",
+    img: TravelEliteIMG,
+    tech: "React | Express | MongoDB",
+    desc: "TravelElite is a web application based on the MERN-(MongoDB, ExpressJS, ReactJS, NodeJS) tech stack. This application aims to connect people who like to travel and allows them store their captured memories on the site. A user can create his/her profile and upload the photos of pictures they have visited along with some relevant information about it.",
+    link: "https://github.com/p-chhabra/TravelELite",
+  },
+  {
+    id: 2,
+    title: "SemDetail",
+    img: SemDetailIMG,
+    tech: "NextJS | MongoDB| Tailwind",
+    desc: "Semester Detail Website is an online platform where a student can access the details related to different courses of all semesters with comfort and ease. It contains information on various fronts for all courses in a user friendly and easy to navigate manner",
+    link: "https://github.com/p-chhabra/Semester-Detail-Website/tree/dev",
+  },
+  {
+    id: 3,
+    title: "RFID Model",
+    img: RFIDModelIMG,
+    tech: "Arduino | NodeJS | ReactJS",
+    desc: "The RFID Attendance System is a project that allows you to track the attendance of students using RFID technology. This system uses an Arduino board, Node.js, Express, Mongoose, and React to capture RFID data, store it in a database, and display a list of present students in a web interface.",
+    link: "https://github.com/p-chhabra/RFID-Attendance-system",
+  },
+  {
+    id: 4,
+    title: "Meal Store",
+    img: MealStoreIMG,
+    tech: "ReactJS | Firebase",
+    desc: "A Real-Time physically-based rendering engine. Written in C++ and OpenGL. The engine supports direct lighting and image based indirect lighting using the 'Cook-Torrance' model. Additionally supports normal mapping and skybox rendering.",
+    link: "https://github.com/p-chhabra/Food-Order-App",
+  },
+  {
+    id: 5,
+    title: "Mapty",
+    img: MaptyIMG,
+    tech: "ReactJS | LeafletJS",
+    desc: "A map workout application which allows users to mark their workout location on the map and save it. The application uses the LeafletJS library to display the map. The application also uses the local storage to store the data of the user.",
+    link: "https://github.com/p-chhabra/Map-Workout-Application",
+  },
+];
 
 const Projects = () => {
+  console.log(projectData[0].img);
   return (
-    <div name="projects" className="w-full h-full mb-48">
-      <div className="max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full text-gray-300">
-        <div className="pb-8">
-          <p className="text-4xl font-bold border-b-8 border-pink-600 pb-4">
-            Projects
-          </p>
-          <p className="py-6 font-bold">// Check out some of my work</p>
-        </div>
-
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Grid Item */}
-          <div className="project-1 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#17ce4e] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-80 text-center">
-              <span className="text-2xl font-bold text-white">
-                Natours - Sass Design Project
-              </span>
-
-              <div className="pt-8 text-center">
-                <a href="https://natours-1518.netlify.app/" target="_blank">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/p-chhabra/Natours">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
+    <Fade>
+      <div name="projects" className="w-full h-full">
+        <div className="max-w-[1100px] p-4 mx-auto flex flex-col justify-center w-full h-full text-gray-300">
+          <div className="pb-8">
+            <p className="text-4xl font-bold border-b-8 border-pink-600 pb-4">
+              Projects
+            </p>
+            <p className="py-6 font-bold">// Check out some of my work</p>
           </div>
-
-          <div className="project-2 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#1251b1] hover:-translate-y-1 hover:border-2 hover:border-b-4  duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                WildPreserve - Custom CSS Design Project
-              </span>
-
-              <div className="pt-8 text-center">
-                <a href="https://wildpreserve.netlify.app/" target="_blank">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/p-chhabra/Wild-Preserve-website"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-3 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#e7f521] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Bankist - Vanilla JS functional project
-              </span>
-
-              <div className="pt-8 text-center">
-                <a
-                  href="https://bankist-web-application.netlify.app/"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/p-chhabra/Bankist-Account-APP"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-4 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#e7e7e7] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Mapty - Workout Tracking Project using map API
-              </span>
-
-              <div className="pt-8 text-center">
-                <a href="https://map-workout-app.netlify.app/" target="_blank">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/p-chhabra/Map-Workout-Application"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-5 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#ce1797] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Pig Game - A multiplayer 1v1 Dice Game
-              </span>
-
-              <div className="pt-8">
-                <a href="https://dice-game-1v1.netlify.app/" target="_blank">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/p-chhabra/Pig-Game" target="_blank">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-6 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#0ea728] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Great Quotes - A ReactJS app to maintain Quotes
-              </span>
-
-              <div className="pt-8">
-                <a
-                  href="https://great-quotes-application.netlify.app/"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/p-chhabra/Great-Quotes-App"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-7 group shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto my-4 border-b-8 border-[#b4110c] hover:-translate-y-1 hover:border-2 hover:border-b-4 duration-500">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                MealStore - A ReactJS App to manage food expenses and orders
-              </span>
-
-              <div className="pt-8">
-                <a href="https://mealstore.netlify.app/" target="_blank">
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/p-chhabra/Food-Order-App"
-                  target="_blank"
-                >
-                  <button className="px-4 py-3 m-2 bg-white text-center rounded-lg text-gray-700 font-bold text-lg hover:scale-110 duration-300">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
+          <div className="cards">
+            {projectData.map((item) => {
+              return <ProjectCard {...item} key={item.id} />;
+            })}
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 };
 

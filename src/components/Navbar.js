@@ -1,13 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import logo from "../assets/PC.png";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -82,7 +76,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
-          <Link onClick={handleClick} to="education" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="education"
+            smooth={true}
+            duration={500}
+          >
             Education
           </Link>
         </li>
@@ -139,7 +138,7 @@ const Navbar = () => {
           </li>
           <li className="font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#666666]">
             <a
-              href="https://drive.google.com/drive/folders/131VsbO-_KPlgR2e-HBX9-BlGKFicMEYl?usp=sharing"
+              href="https://p-chhabra.github.io/Resume/Resume.pdf"
               target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
