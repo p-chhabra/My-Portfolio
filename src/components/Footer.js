@@ -20,7 +20,7 @@ const Footer = () => {
               alt="logo"
             />
           </a>
-          <a href="https://www.instagram.com/p_chhabra8901/" target="_blank">
+          <a href="https://www.instagram.com/p_chhabra8/" target="_blank">
             <img
               src={instagram}
               className="w-10 mx-3 hover:-translate-y-1 duration-300"

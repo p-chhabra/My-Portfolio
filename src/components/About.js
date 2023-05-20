@@ -22,11 +22,12 @@ const About = () => {
             </div>
             <div className="">
               <p>
-                I'm passionate about building software that improves the lives
-                of those around me. I specialize in creating software for
-                clients ranging from individuals to small-businesses all the way
-                to large enterprise corporations. What would you do if you had a
-                software expert available at your fingertips.
+                I am a full-stack developer with a passion for building web
+                applications and learning new technologies. I am currently
+                pursuing my B.Tech in Computer Science and Engineering from
+                National Institute of Technology, Hamirpur. I am a quick learner
+                and a team player. I am always looking for opportunities to
+                learn and grow.
               </p>
             </div>
           </div>

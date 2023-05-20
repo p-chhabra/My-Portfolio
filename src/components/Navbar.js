@@ -138,7 +138,7 @@ const Navbar = () => {
           </li>
           <li className="font-bold w-[160px] h-[60px] ml-[-100px] flex justify-center items-center hover:ml-[-10px] duration-300 bg-[#666666]">
             <a
-              href="https://drive.google.com/drive/folders/131VsbO-_KPlgR2e-HBX9-BlGKFicMEYl?usp=sharing"
+              href="https://p-chhabra.github.io/Resume/Resume.pdf"
               target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >

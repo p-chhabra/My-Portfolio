@@ -19,8 +19,8 @@ const Home = () => {
           </h2>
           <p className="text-[#8892b0] text-md py-4 max-w-[700px] ">
             I'm currently pursuing B.Tech in Computer Science and Engineering
-            from NIT Hamirpur. I currently hold the position of Executive Member
-            at CSEC (Computer Science Engineer's Community) NITH which is a
+            from NIT Hamirpur. I currently hold the position of Coordinator at
+            CSEC (Computer Science Engineer's Community) NITH which is a
             technical society of the Computer Science department of NITH.
           </p>
 
